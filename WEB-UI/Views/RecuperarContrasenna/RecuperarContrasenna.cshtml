@@ -1,0 +1,46 @@
+﻿@model DTO.UsuarioBase
+
+@{
+    ViewBag.Title = "Recuperar Contraseña";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/js/RecuperarContrasenna/RecuperarContrasenna.js"></script>
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/recuperarContrasenna.css" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="main-w3layouts wrapper">
+        <h1>Recuperar Contraseña</h1>
+        <div class="main-agileinfo">
+            <div class="agileits-top">
+             
+                <div class="input-group">
+                    <label for="Correo">Correo</label>
+                    <input type="email" class="text" id="Correo" name="Correo">
+                    <p>Ingresa tu correo electrónico, y si está registrado, te enviaremos un codigo de verificación.</p>
+                    @* @Html.TextBoxFor(model => model.Correo, new { @class = "text", placeholder = "Correo Electrónico" }) *@
+                </div>
+          
+                <p class="verification-message" id="verificationMessage"></p>
+                <div class="input-group">
+                    <button type="button" id="btnVerificar">Verificar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    </script>
+</body>
+</html>

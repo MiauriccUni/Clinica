@@ -1,0 +1,249 @@
+﻿@*
+    
+*@
+@{
+    <script src="~/js/usermenu/menufunctions.js"></script>
+    <!--UNICO CSS PARA PAGINAS CREADAS POR CHRISTIAN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="~/css/severalstyles.css" rel="stylesheet" />
+}
+
+<div class="container-fluid p-0">
+    <div class="row">
+        <div class="overflow-auto w-75 ml-0 ">
+            <nav id="sidebar-menu">
+                <ul class="navbar-nav">
+                    <h5>Servicios</h5>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="LandingAdministrador">
+                            <i class="bi bi-house icons"></i>
+                            <span class="text">Inicio</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="ListaSedes">
+                            <i class="bi bi-pin-map"></i>
+                            <span class="text">Sedes</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="VerUsuarios">
+                            <i class="bi bi-people"></i>
+                            <span class="text">Usuarios</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="ListaCitas">
+                            <i class="bi bi-calendar2-heart"></i>
+                            <span class="text">Citas</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="ResultadosEncuestas">
+                            <i class="bi bi-bar-chart-line"></i>
+                            <span class="text">Reporte de calidad</span>
+
+                        </a>
+                    </li>
+                    @*<li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="ReportesFinancieros">
+                            <i class="bi bi-graph-up-arrow"></i>
+                            <span class="text">Reporte financiero</span>
+                        </a>
+                    </li>*@
+                    @*<li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="DefinicionPrecioEImpuestos">
+                            <i class="bi bi-currency-dollar"></i>
+                            <span class="text">Definicion de precios <br /> e impuestos</span>
+                        </a>
+                    </li>*@
+                    @*<li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="NotificacionesSolicitudes">
+                            <i class="bi bi-bell"></i>
+                            <span class="text">Notificaciones</span>
+                        </a>
+                    </li>*@
+                    @*<li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="ConfiguracionAlertas">
+                            <i class="bi bi-gear-wide-connected"></i>
+                            <span class="text">Configuracion de <br> alertas</span>
+                        </a>
+                    </li>*@
+
+                    <br>
+                    <br>
+                    <h5>Mi salud</h5>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="ExpedientePersonal">
+                            <i class="bi bi-clipboard2-pulse"></i>
+                            <span class="text">Expediente</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="ExamenPersonal">
+                            <i class="bi bi-card-list"></i>
+                            <span class="text">Examenes</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="CrearCitasPersonales">
+                            <i class="bi bi-calendar-heart"></i>
+                            <span class="text">Citas</span>
+                        </a>
+                    </li>
+                    @*<li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="MisRecetas">
+                            <i class="bi bi-prescription2"></i>
+                            <span class="text">Recetas</span>
+                        </a>*@
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="MisFacturas">
+                            <i class="bi bi-cash-coin"></i>
+                            <span class="text">Pagos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="EncuestaServicio">
+                            <i class="bi bi-emoji-neutral"></i>
+                            <span class="text">Encuesta de servicios</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Administrador" asp-action="DatosPersonales">
+                            <i class="bi bi-person"></i>
+                            <span class="text">Datos personales</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class=""></i>
+                            <span class="text"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

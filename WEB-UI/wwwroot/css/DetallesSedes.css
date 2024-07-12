@@ -1,0 +1,40 @@
+﻿#NombreEspecialidad,
+#CostoEspecialidad,
+#IvaEspecialidad,
+#IdEspecialidad,
+#agregarEspecialidadBtn,
+label[for="NombreEspecialidadLabel"],
+label[for="CostoEspecialidadLabel"],
+label[for="IvaEspecialidadLabel"],
+label[for="IdEspecialidadLabel"],
+#IdEspecialidadEliminar,
+#NombreEspecialidadEliminar,
+#CostoEspecialidadEliminar,
+#IvaEspecialidadEliminar,
+#eliminarEspecialidadBtn,
+label[for="IdEspecialidadEliminarLabel"],
+label[for="NombreEspecialidadEliminarLabel"],
+label[for="CostoEspecialidadEliminarLabel"],
+label[for="IvaEspecialidadEliminarLabel"],
+#IdUsuario,
+#NombreUsuarioEliminar,
+#IdUsuarioEspecialidadEliminar,
+#CorreoUsuarioEliminar,
+#RolUsuarioEliminar,
+#eliminarUsuarioBtn,
+label[for="IdUsuarioLabel"],
+label[for="NombreUsuarioEliminarLabel"],
+label[for="IdUsuarioEspecialidadEliminarLabel"],
+label[for="CorreoUsuarioEliminarLabel"],
+label[for="RolUsuarioEliminarLabel"] {
+    display: none;
+}
+
+
+/*.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}*/

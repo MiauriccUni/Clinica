@@ -1,0 +1,75 @@
+﻿@model DTO.UsuarioBase
+@{
+    ViewBag.Title = "";
+    Layout = "../Shared/_Layout.cshtml";
+}
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/js/login/login.js"></script>
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="~/css/Login.css" />
+    @* <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" /> *@
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="~/css/overflow.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="main-w3layouts wrapper">
+        <div class="main-agileinfo">
+            <div class="agileits-top">
+                <h1 style="color: black">Iniciar Sesión</h1>
+
+                @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+                {
+                    <div>
+
+
+                         @if (ViewBag.Message != null)
+                         {
+                             <div id="validations" style="color: red; display: none">@ViewBag.Message</div>    
+                         }
+
+                     </div>
+
+                    <div class="input-group">
+                        <div>
+                            <label>Correo</label>
+                            @Html.TextBoxFor(model => model.Correo, new { @class = "email", required = "required" })
+                        </div>
+                        <div>
+                            <label>Contraseña</label>
+                            @Html.PasswordFor(model => model.Contrasenna, new { @class = "text", required = "required" })
+                        </div>
+                    </div>
+
+                    <div class="btn-container">
+                        <input id="submitBtn" type="submit" value="Iniciar Sesión">
+                    </div>
+
+                }
+
+
+                <div class="sign-up-hover">
+                    <p style="text-align: center;  color: black;"" >¿No tienes una cuenta? <a style=" color: black;" href="Registro/Registro">Regístrate aquí</a> &nbsp; |&nbsp; <a style=" color: black;" href="RecuperarContrasenna/RecuperarContrasenna">¿Olvidaste tu contraseña?</a></p>
+                </div>
+            </div>
+        </div>
+    </div
+</body>
+</html>

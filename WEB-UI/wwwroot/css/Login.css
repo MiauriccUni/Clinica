@@ -1,0 +1,133 @@
+﻿body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.main-w3layouts {
+    padding: 3em 0 1em;
+}
+
+.main-agileinfo {
+    width: 60%;
+    margin: 3em auto;
+    background-color: #68ddbd;
+    border-radius: 10px;
+}
+
+.agileits-top {
+    padding: 3em;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+    .input-group > div {
+        width: 48%;
+    }
+
+.input-group-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .input-group-header .file-upload {
+        margin-left: auto;
+    }
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+.file-upload span {
+    background-color: #038554;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.preview-container {
+    width: 48%;
+    text-align: center;
+}
+
+    .preview-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="password"] {
+    font-size: 0.9em;
+    color: #038554;
+    font-weight: 100;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 0.8em;
+    border: solid 1px #03bb85;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #a4fff7;
+}
+
+input[type="submit"] {
+    font-size: 1em;
+    color: #fff;
+    background-color: #038554;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.9em;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease;
+}
+
+    input[type="submit"]:hover {
+        background-color: #03bb85;
+    }
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .signup-link p {
+        color: #ffffff;
+        font-size: 0.9em;
+    }
+
+        .signup-link p a {
+            color: #ffffff;
+            transition: 0.5s all;
+        }
+
+            .signup-link p a:hover {
+                color: #03bb85;
+            }
+
+            .signup-link a:hover {
+                color: #0026ff;
+            }
+
+
+.sign-up-hover a:hover {
+    color: white; /* Cambia el color del texto a blanco */
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.9);
+}

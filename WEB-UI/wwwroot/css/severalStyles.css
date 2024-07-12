@@ -1,0 +1,343 @@
+﻿
+
+/*
+    PARA LANDING PRODUCTO
+*/
+#welcome-section {
+    background-image: url(https://i.imgur.com/iYoRiG9.png);
+    background-size: cover;
+}
+
+
+#btn-access-app, #btn-location, #btn-register {
+    margin-bottom: 12%;
+    margin-top: 5%;
+    background-color: #68ddbd;
+}
+
+#right-section-welcome p, #right-section-welcome h2 {
+    width: 45%;
+    background-color: #038554;
+    color: white;
+    padding-left: 3%
+}
+
+#left-section-welcome p {
+    width: 45%;
+    background-color: #038554;
+    color: white;
+    padding-left: 3%
+}
+
+
+#btn-location {
+    margin-bottom: 5%;
+}
+
+
+/**#seccion-novedades{
+    background-color:#68ddbd
+}*/
+.boxes-features {
+    border-color: aliceblue;
+    border-radius: 2%;
+    border-style: dashed;
+    margin: 5%;
+    text-align: center;
+    background-color: #68ddbd
+}
+
+#services-section {
+    background-color: #038554;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.boxes-services {
+    border-color: white;
+    border-radius: 5px;
+    border-style: double;
+    margin: 5%;
+    text-align: center;
+    background-color: #68ddbd;
+    height: 50px;
+}
+
+.boxes-professionals {
+    border-radius: 5px;
+    border-style: initial;
+    margin: 5%;
+    text-align: center;
+}
+
+#professionals-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+#characteristics-section {
+    background-color: #03bb85;
+    margin-bottom: 0%;
+    display: block
+}
+
+.boxes-characteristics {
+    border-color: black;
+    border-radius: 5px;
+    border-style: double;
+    margin: 5%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*
+    PARA CITAS PERSONALES
+*/
+
+#main-box-appointments {
+    background-color: #68ddbd
+}
+
+#other-box-appointments {
+    background-color: #68ddbd;
+    margin-left: 5px
+}
+
+
+/*
+    PARA ASIGNACION DE CITAS
+*/
+
+.textbox-appointment-assignation {
+    width: 400px;
+    height: 200px
+}
+
+#img-profile-personal-data {
+    height: 100px;
+    width: 100px
+}
+
+#i-new-password {
+    height: 5em;
+    color: black
+}
+
+/*
+    PARA EXPEDIENTE PERSONAL
+*/
+
+#btns-expediente button {
+    width: 450px;
+    background-color: #68ddbd
+}
+
+
+
+/*
+    PARA ENCUESTA DE SERVICIO
+*/
+
+#additional-comments {
+    width: 450px
+}
+
+/*
+    PARA PAGOS DE FACTURAS
+*/
+
+#tb-bills td {
+    padding-left: 20px
+}
+
+
+
+/*
+    PARA MENU LATERAL
+*/
+#sidebar-menu {
+    background-color: #038554;
+    text-align: left;
+    height: 100%;
+    padding-left: 5px;
+    color: white;
+    width: 100%;
+}
+
+    #sidebar-menu.active {
+        width: 25%;
+        text-align: center;
+    }
+
+
+        #sidebar-menu.active h5 {
+            display: none;
+        }
+
+
+
+
+        #sidebar-menu.active .nav-link .text {
+            display: none;
+        }
+
+.bi {
+    font-size: 1.4em;
+    color: white;
+}
+
+
+/*
+    PARA ENCABEZADO COMPARTIDO PARA LAS DISTINTAS PAGINAS
+*/
+
+#header-menu {
+    background-color: #005227;
+    height: 5%
+}
+
+
+
+.text {
+    color: white
+}
+
+#img-logo-nav-bar {
+    width: 120px;
+    height: 100px;
+    background-size: cover;
+    display: inline-block
+}
+
+/*
+    PARA LANDING DE CADA ROL
+*/
+.boxes-quick-access {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: #68ddbd;
+    height: 200px;
+    width: 200px; 
+    color: white;
+}
+.boxes-quick-access-z {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #68ddbd;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+
+    .boxes-quick-access p {
+        text-align: center;
+    }
+
+
+.row:last-child .boxes-quick-access {
+    width: calc(20% - 20px); 
+}
+
+
+
+
+
+    
+
+
+
+
+#menu-quick-access a {
+    color: white;
+    width: 35%;
+    height: 45%;
+    text-decoration: none
+}
+
+/*
+    PARA EL MENU DESPLEGABLE DE CERRAR SESION Y VER MI PERFIL
+*/
+
+
+
+#other-options-list {
+    width: 160px;
+    padding: 5px;
+    background-color: #038554;
+    
+   
+}
+
+    #other-options-list a {
+        text-decoration: none;
+        color: white;
+        padding-top:2px;
+
+    }
+
+    
+/*PARA EL EXPEDIENTE PERSONAL*/
+#table-historial-clinico textarea{
+    width:600px
+
+}
+
+/*PARA LA LISTA DE EXAMENES*/
+#btn-subir-examen {
+    text-decoration:none;
+   
+}
+
+
+/* ESTILO  PARA CREAR SEDES */
+#form-crear-sede input{
+    background-color:white;
+    border-color: black
+}
+#form-crear-sede textarea {
+    background-color: white;
+    border-color: black
+}
+
+/*ESTILO PARA CREAR EXAMEN*/
+.fotoUsuario {
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #BDC1CAFF;
+    border-style: dashed;
+}
+
+/**PARA AJUSTER EL TAMAÑO DE LA IMAGEN DEL EXPDIENTE*/
+#profile-img{
+    width:160px;
+    height:160px;
+    border-radius:50%
+    
+}
